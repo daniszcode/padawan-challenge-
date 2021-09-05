@@ -1,0 +1,131 @@
+@import "./fonts/fonts.scss";
+@import "./global/reset.scss";
+
+//#################################### HEADER
+
+.nav-menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 5px;
+    background-image: url(/assets/img/bg-desktop-light.jpg);
+    background-size: cover;
+    @include tipografia-2;
+
+
+    .nav-menu--list {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+
+
+
+        .menu-list--option {
+            text-decoration: none;
+            margin-right: 36px;
+
+
+        }
+
+    }
+
+}
+
+.nav-menu---two {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 5px;
+    background-image: url(/assets/img/bg-desktop-dark.jpg);
+    background-size: cover;
+    @include tipografia-3;
+}
+
+.nav-menu--list-two {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+
+
+    .menu-list--option-two {
+        text-decoration: none;
+        margin-right: 36px;
+
+
+    }
+
+}
+
+
+//#################################Container-mood
+
+.container-mood {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0px 0px 6px;
+    gap: 45px;
+    cursor: pointer;
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+//#############################Table
+
+.container-table {
+    padding: 150px 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .res {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        @include tipografia-1;
+
+        .table-post {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+
+            .table-post--item {
+                display: flex;
+                list-style: none;
+                box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+            }
+
+            .table-post--item:hover {
+                padding: 20px 10px;
+            }
+
+            .table-post--item-false {
+                text-shadow: 0.1em 0.1em 0.15em #ff69b4;
+                list-style: none;
+                box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+            }
+
+            .table-post--item-false:hover {
+                padding: 20px 10px;
+            }
+        }
+
+
+    }
+
+
+
+
+}
