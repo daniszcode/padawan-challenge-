@@ -4,7 +4,7 @@ async function principal() {
       "https://jsonplaceholder.typicode.com/posts"
     );
     const resposta = await respostaAsync.json();
-    return mostrar(resposta) + Pesquisar(resposta);
+    return mostrar(resposta);
   } catch (erro) {
     return "Ocorreu erro " + erro;
   }
